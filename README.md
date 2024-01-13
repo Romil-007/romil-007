@@ -6,7 +6,7 @@
 <div align="left">
 
 # About Me 😎:
-💻 I’m currently Studying & Working at ITM Skills University & LetsUpgrade.<br>🤝🏻 I’m looking to collaborate on projects based on Python<br>👨‍🎓 I’m currently learning Python, C++, C , Css and HTML.<br>💬 Interest about Future tech, UIUX, Ai/ML and DataScience.<br>👨‍💻 All of my projects are available at https://github.com/Romil-007<br>📫 How to reach me 2023.romilp@isu.ac.in<br>⚡ Fun fact I love Playing Sports and games
+💻 I’m currently Studying & Working at ITM Skills University & LetsUpgrade.<br>🤝🏻 I’m looking to collaborate on projects based on Python<br>👨‍🎓 I’m currently learning Python, C++, C , Css and HTML.<br>📟 Interest about Future tech, UIUX, Ai/ML and DataScience.<br>👨‍💻 All of my projects are available at https://github.com/Romil-007<br>📫 How to reach me 2023.romilp@isu.ac.in<br>🏏 Fun fact I love Playing Sports and games
 
 
 
