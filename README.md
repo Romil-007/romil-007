@@ -10,7 +10,7 @@
 
 
 #MY WEBSITE 😎:
-[![Website](https://img.shields.io/badge/Click-here-%2300000.svg?style=plastic&logo=Clickhere&logoColor=Red)](https://romil-007.github.io/romil-007/)
+[![Website](https://img.shields.io/badge/Clickhere-%2300000.svg?style=plastic&logo=Clickhere&logoColor=Red)](https://romil-007.github.io/romil-007/)
 
 
 
