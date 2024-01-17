@@ -1,78 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <title>Romil-007</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
+      background: url("https://c4.wallpaperflare.com/wallpaper/565/753/87/art-colors-creation-digital-wallpaper-preview.jpg") center center/cover;
+      background-size: cover;
+      color: #444;
     }
 
     header {
-      background-color: #24292e;
-      color: #fff;
-      padding: 2rem;
+      background-color: #2c3e50;
+      color: #ecf0f1;
+      padding: 2rem 0;
       text-align: center;
+    }
+
+    h1, h2 {
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1.3rem;
+      line-height: 1.8;
     }
 
     section {
       max-width: 800px;
       margin: 2rem auto;
-      padding: 1.5rem;
-      background-color: #fff;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      border-radius: 8px;
+      padding: 2rem;
+      background-color:white;
+      backface-visibility: 80%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
     }
 
-    h1 {
-      color: ##FFFFFF;
+    .repo-links, .additional-info {
+      margin-top: 2rem;
     }
 
-    p {
-      font-size: 1.2rem;
-      line-height: 1.6;
-      color: #555;
-    }
-
-    .repo-links {
-      margin-top: 1.5rem;
-    }
-
-    .repo-links a {
+    .repo-links a, .additional-info a {
       display: block;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
       text-decoration: none;
-      color: #0366d6;
+      color: #3498db;
+      transition: color 0.3s ease-in-out;
     }
-    .name{
-      color: #FFFFFF;
+
+    .repo-links a:hover, .additional-info a:hover {
+      color: #1abc9c;
+    }
+
+    .social-buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 1.5rem;
+      border-radius: 10px;
+    }
+    
+    .social-buttons a {
+      height: 20px;
+      width: 120px;
+      font-weight: 1100;
+      display: inline-block;
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #000000;
+      background: url('https://static.vecteezy.com/system/resources/thumbnails/005/412/075/small/abstract-pastel-purple-minimal-background-for-invitation-or-banner-free-vector.jpg') center center/cover;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    .video{
+        position:relative;
+        justify-content: right;
+        height: 500px;
+        border-radius:220%;
+    }
+    .social-buttons a:hover {
+      background: #a7e3ff;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1 class = "name">Romil Pandey 🧑🏻‍🎓</h1>
+    <video class="video" autoplay muted loop>
+        <source src="ROMIL PANDEY.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <h1>Romil Pandey 🧑🏻‍🎓</h1>
     <p>Student | Tech Enthusiast | Python learner 📟</p>
+    <div class="social-buttons">
+      <a class = "linkedin" href="https://www.linkedin.com/in/romil-pandey-87839a2a4/" target="_blank">LinkedIn</a>
+      <a class = "hackerrank" href="https://www.hackerrank.com/profile/2023_romilp" target="_blank">HackerRank</a>
+      <a class = "Instagram" href="https://www.instagram.com/sujal_979/" target="_blank">Instagram</a>
+      <a class = "Github" href="https://github.com/Romil-007" target="_blank">Git-Hub</a>
+    </div>
   </header>
 
   <section>
     <h2>About Me 😎</h2>
     <p>
-      Ever since being kid Loved the concept of displaying something on a screen.
-      Passionate about ever-evolving technologies and wonderful innvoations 
+      Ever since being a kid, I loved the concept of seeing ideas come to life on a screen..
+      Passionate about ever-evolving technologies and wonderful innovations.
+      <br><br>
+
+      
     </p>
+    <h2>Education 🏤</h2>
+    <p>
+      Sem-II (Year - I)<br>
+      Currently Enrolled in one of the best and advance BTECH-CSE course of India <a href = "https://isu.ac.in/B-Tech-CSE/" target="_blank">ITM SKILLS UNIVERSITY</a>
+
+    </p>
+    
+    <div class="additional-info">
+      <h2>Competitive Coding 🌟</h2>
+      <a href="https://www.hackerrank.com/your-hackerrank-profile" target="_blank">HackerRank Gold Badge 5🌟(Python)</a>
+    </div>
 
     <div class="repo-links">
-      <h2>Featured Repository</h2>
-      <a href="https://github.com/Romil-007/Hotel_service" target="_blank">A hotel service terminal based app</a>
+      <h2>Featured Github Repos and Projects</h2>
+      <a href="https://github.com/Romil-007/Hotel_service" target="_blank">A hotel service terminal-based app</a>
       <a href="https://github.com/Romil-007/All-Projects" target="_blank">Link to all small Projects</a>
       <a href="https://github.com/Romil-007/100CPP" target="_blank">101 Simple to intermediate level C++ Questions</a>
-      
     </div>
   </section>
 </body>
